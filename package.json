@@ -7,6 +7,10 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "author": "Dhruv Gursahani",
+    "url": "https://github.com/dhruv-bvpdev/hyper-wildcard.git"
+  },
   "dependencies": {
     "next": "12.0.10",
     "react": "17.0.2",
