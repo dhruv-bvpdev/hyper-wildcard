@@ -1,6 +1,4 @@
-.container {
-  padding: 0 2rem;
-}
+$color-link: blueviolet;
 
 .main {
   min-height: 100vh;
@@ -29,7 +27,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: $color-link;
   text-decoration: none;
 }
 
@@ -88,8 +86,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: $color-link;
+  border-color: $color-link;
 }
 
 .card h2 {
