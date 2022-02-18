@@ -1,0 +1,56 @@
+[
+  {
+    "id": "bowser-hologrpohic",
+    "title": "Bowser Holograph",
+    "price": 280,
+    "image": "/images/bowser-holo.jpg"
+  },
+  {
+    "id": "mario-hologrpohic",
+    "title": "Mario Holographic",
+    "price": 320,
+    "image": "/images/mario-holo.jpg"
+  },
+  {
+    "id": "hammer-bro",
+    "title": "Hammer Bro",
+    "price": 90,
+    "image": "/images/hammer.jpg"
+  },
+  {
+    "id": "lakitu",
+    "title": "Lakitu",
+    "price": 110,
+    "image": "/images/lakitu.jpg"
+  },
+  {
+    "id": "toad",
+    "title": "Toad",
+    "price": 100,
+    "image": "/images/toad.jpg"
+  },
+  {
+    "id": "peach",
+    "title": "Peach",
+    "price": 160,
+    "image": "/images/peach.jpg"
+  },
+  {
+    "id": "luigi",
+    "title": "Luigi",
+    "price": 145,
+    "image": "/images/luigi.jpg"
+  },
+  {
+    "id": "bowser",
+    "title": "Bowser",
+    "price": 150,
+    "image": "/images/bowser.jpg"
+  },
+  {
+    "id": "mario",
+    "title": "Mario",
+    "price": 135,
+    "image": "/images/mario.jpg"
+  }
+]
