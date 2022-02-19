@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.productWrapper {
+  display: flex;
+}
+
+.productImage {
+  width: 50%;
+  margin-right: 2em;
+  flex: 0 0 50%;
+}
+
+.productPrice {
+  margin: 0.4em 0 0;
+}
