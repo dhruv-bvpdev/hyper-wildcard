@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaShoppingCart } from "react-icons/fa";
 import { useSnipcart } from "@hooks/use-snipcart";
 import Container from "@components/Container";
@@ -9,7 +10,11 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <Container className={styles.headerContainer}>
-        <p className={styles.headerTitle}>Hyper Bros. Trading Cards</p>
+        <p className={styles.headerTitle}>
+          <Link href="/">
+            <a> Hyper Bros. Trading Cards</a>
+          </Link>
+        </p>
         <p className={styles.headerCart}>
           <button className="snipcart-checkout">
             <FaShoppingCart />
