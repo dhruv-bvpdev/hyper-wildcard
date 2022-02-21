@@ -1,11 +1,25 @@
+@import "@styles/util/__util";
+
 .productWrapper {
   display: flex;
 }
 
 .productImage {
+  @extend %card-image;
   width: 50%;
   margin-right: 2em;
   flex: 0 0 50%;
+
+  transform: rotate(2deg) scale(0.9) translateY(-1em);
+  transition: transform 0.1s;
+  &:hover {
+    transform: rotate(-3deg) scale(1) translateY(-1em);
+    transition: transform 0.2s;
+  }
+
+  & > span {
+    display: block !important;
+  }
 }
 
 .productPrice {

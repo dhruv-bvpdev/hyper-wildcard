@@ -1,7 +1,9 @@
+@import "@styles/util/__util";
+
 .products {
   list-style: none;
   padding: 0;
-  margin: 3em 0 0;
+  margin: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 3em;
@@ -14,4 +16,17 @@
 
 .productPrice {
   margin: 0.4em 0 0;
+}
+
+.productImage {
+  @extend %card-image;
+  transform: rotate(-2deg) scale(1) translateY(-1em);
+  transition: transform 0.1s;
+  &:hover {
+    transform: rotate(0) scale(1.1) translateY(-1em);
+    transition: transform 0.2s;
+  }
+  & > span {
+    display: block !important;
+  }
 }
