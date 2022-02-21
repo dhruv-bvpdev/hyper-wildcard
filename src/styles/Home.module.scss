@@ -41,6 +41,10 @@
     font-size: 1.2em;
     margin-top: 0;
   }
+
+  @media (max-width: 600px) {
+    display: block;
+  }
 }
 
 .allegiances {
@@ -54,6 +58,10 @@
 
   li {
     margin: 0.5em;
+
+    @media (max-width: 280px) {
+      font-size: 0.74em;
+    }
 
     &:first-child {
       margin-left: 0;
@@ -74,6 +82,10 @@
     padding: 0.5em 0.6em;
     background: none;
     border: solid 5px gray;
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
 
     &:focus {
       outline: none;
