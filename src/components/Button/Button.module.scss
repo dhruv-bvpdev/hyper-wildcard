@@ -11,10 +11,20 @@
   padding: 0.6em 1em;
   cursor: pointer;
 
+  &[data-color="yellow"] {
+    color: $color-brand-blue;
+    background-color: $color-brand-yellow;
+  }
+
   &:hover {
     background-color: lighten($color-brand-green, 6);
     transform: translateY(-3px);
     transition: transform 0.2s;
+
+    &[data-color="yellow"] {
+      color: $color-brand-blue;
+      background-color: lighten($color-brand-yellow, 10);
+    }
   }
 
   &:active {

@@ -1,4 +1,5 @@
 @import "@styles/util/__util";
+@import "@styles/settings/__settings";
 
 .products {
   list-style: none;
@@ -29,4 +30,37 @@
   & > span {
     display: block !important;
   }
+}
+
+.allegiances {
+  margin-bottom: 4em;
+
+  h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin: 0.5em;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.allegianceIsActive {
+  border: solid 5px $color-brand-blue;
 }

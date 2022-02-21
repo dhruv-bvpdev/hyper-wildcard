@@ -3,6 +3,9 @@
 .footer {
   display: flex;
   flex: 1;
+  flex-direction: column;
+  font-family: $font-family-display;
+  font-weight: $font-weight-display-bold;
   padding: 2rem 0;
   border-top: 25px solid $color-brand-green;
   background-color: $color-brand-yellow;

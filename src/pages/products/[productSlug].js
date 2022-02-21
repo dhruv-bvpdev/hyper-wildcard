@@ -62,7 +62,7 @@ export async function getStaticProps({ params }) {
   const { productSlug } = params;
 
   const client = new ApolloClient({
-    uri: "https://capricioushen.tastewp.com/graphql",
+    uri: "https://condemnedvein.tastewp.com/graphql",
     cache: new InMemoryCache(),
   });
 
@@ -112,7 +112,7 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
   const client = new ApolloClient({
-    uri: "https://capricioushen.tastewp.com/graphql",
+    uri: "https://condemnedvein.tastewp.com/graphql",
     cache: new InMemoryCache(),
   });
 

@@ -3,7 +3,8 @@ import styles from "./Footer.module.scss";
 const Footer = ({ ...rest }) => {
   return (
     <footer className={styles.footer}>
-      &copy; Hyper Bros. Trading Cards, {new Date().getFullYear()}
+      &copy; {new Date().getFullYear()}
+      <span>All Rights Reserved</span>
     </footer>
   );
 };
